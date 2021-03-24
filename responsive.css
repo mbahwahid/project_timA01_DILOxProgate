@@ -1,0 +1,96 @@
+/* Ukuran Desktop */
+@media all and (min-width: 1170px) and (max-width: 1980px) {
+  .menu-icon {
+    display: none;
+  }
+  #latest_posts{
+    width: 45%;
+    padding: 2.5%;
+  border-left: 1px solid #004866;
+  }
+  #testimonial{
+    width: 40%;
+    padding: 2.5%;
+  border-left: 1px solid #004866;
+  }
+}
+
+/* Ukuran Tablet */
+@media all and (max-width: 1050px) {
+  .menu-icon {
+    display: none;
+  }
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero h2 {
+    font-size: 24px;
+  }
+  .flex-list {
+    flex-wrap: wrap;
+  }
+  .flex-list li {
+    width: 50%;
+    margin-bottom: 60px;
+  }
+
+  .gallery {
+    width: calc(150% / 4);
+    padding: 0 30px 50px 30px;
+  }
+
+  #latest_posts{
+    width: 45%;
+    padding: 2.5%;
+    border-left: none;
+  }
+  #testimonial{
+    width: 40%;
+    padding: 2.5%;
+    border-left: none;
+  }
+}
+
+/* Ukuran Smartphone */
+@media all and (max-width: 800px) {
+  .menu_nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .flex-list {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .flex-list li {
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .gallery {
+    width: 100%;
+  }
+
+  #latest_posts{
+    width: 45%;
+    padding: 2.5%;
+    border-left: none;
+  }
+  #testimonial{
+    width: 40%;
+    padding: 2.5%;
+    border-left: none;
+  }
+}
